@@ -1,0 +1,16 @@
+D:\Automações\Automacao_Asuna\src\test\java\runner\RunnerTest.java
+D:\Automações\Automacao_Asuna\src\test\java\core\DSL.java
+D:\Automações\Automacao_Asuna\src\test\java\core\DriverFactory.java
+D:\Automações\Automacao_Asuna\src\test\java\core\OracleDB.java
+D:\Automações\Automacao_Asuna\src\test\java\managers\FileReaderManager.java
+D:\Automações\Automacao_Asuna\src\test\java\pages\LoginPages.java
+D:\Automações\Automacao_Asuna\src\test\java\functions\LoginFunctions.java
+D:\Automações\Automacao_Asuna\src\test\java\core\Propriedades.java
+D:\Automações\Automacao_Asuna\src\test\java\core\Utils.java
+D:\Automações\Automacao_Asuna\src\test\java\stepsDefinition\LoginSteps.java
+D:\Automações\Automacao_Asuna\src\test\java\stepsDefinition\Hooks.java
+D:\Automações\Automacao_Asuna\src\test\java\fileWriter\ConfigFileWriter.java
+D:\Automações\Automacao_Asuna\src\test\java\core\BasePage.java
+D:\Automações\Automacao_Asuna\src\test\java\core\BaseTest.java
+D:\Automações\Automacao_Asuna\src\test\java\managers\FileWriterManager.java
+D:\Automações\Automacao_Asuna\src\test\java\fileReader\ConfigFileReader.java

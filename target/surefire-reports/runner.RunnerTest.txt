@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.885 sec <<< FAILURE!
+Login com sucesso(Aplicação)  Time elapsed: 0.327 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local1>" is null
+	at core.DriverFactory.getDriver(DriverFactory.java:33)
+	at core.DSL.abrirUrl(DSL.java:121)
+	at pages.LoginPages.entrarSite(LoginPages.java:10)
+	at functions.LoginFunctions.entrarSite(LoginFunctions.java:10)
+	at stepsDefinition.LoginSteps.que_eu_entre_no_menu_login(LoginSteps.java:15)
+	at ✽.que eu entre no menu login(file:///D:/Automações/Automacao_Asuna/src/test/resources/features/Automacao.feature:9)
+
+Login com sucesso(Aplicação)  Time elapsed: 0.328 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local1>" is null
+	at core.DriverFactory.getDriver(DriverFactory.java:33)
+	at core.BaseTest.takeScreenshot(BaseTest.java:52)
+	at stepsDefinition.Hooks.aposCenario(Hooks.java:73)
+
+Login sem E-mail #1(Aplicação)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local1>" is null
+	at core.DriverFactory.getDriver(DriverFactory.java:33)
+	at core.DSL.abrirUrl(DSL.java:121)
+	at pages.LoginPages.entrarSite(LoginPages.java:10)
+	at functions.LoginFunctions.entrarSite(LoginFunctions.java:10)
+	at stepsDefinition.LoginSteps.que_eu_entre_no_menu_login(LoginSteps.java:15)
+	at ✽.que eu entre no menu login(file:///D:/Automações/Automacao_Asuna/src/test/resources/features/Automacao.feature:18)
+
+Login sem E-mail #1(Aplicação)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local1>" is null
+	at core.DriverFactory.getDriver(DriverFactory.java:33)
+	at core.BaseTest.takeScreenshot(BaseTest.java:52)
+	at stepsDefinition.Hooks.aposCenario(Hooks.java:73)
+
+Login sem E-mail #2(Aplicação)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local1>" is null
+	at core.DriverFactory.getDriver(DriverFactory.java:33)
+	at core.DSL.abrirUrl(DSL.java:121)
+	at pages.LoginPages.entrarSite(LoginPages.java:10)
+	at functions.LoginFunctions.entrarSite(LoginFunctions.java:10)
+	at stepsDefinition.LoginSteps.que_eu_entre_no_menu_login(LoginSteps.java:15)
+	at ✽.que eu entre no menu login(file:///D:/Automações/Automacao_Asuna/src/test/resources/features/Automacao.feature:24)
+
+Login sem E-mail #2(Aplicação)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local1>" is null
+	at core.DriverFactory.getDriver(DriverFactory.java:33)
+	at core.BaseTest.takeScreenshot(BaseTest.java:52)
+	at stepsDefinition.Hooks.aposCenario(Hooks.java:73)
+
