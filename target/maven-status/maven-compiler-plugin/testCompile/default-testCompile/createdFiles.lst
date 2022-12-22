@@ -1,4 +1,3 @@
-pages\LoginPages.class
 core\OracleDB.class
 core\BasePage.class
 core\BaseTest.class
@@ -7,12 +6,13 @@ core\DriverFactory.class
 managers\FileReaderManager.class
 core\Propriedades$Browsers.class
 fileWriter\ConfigFileWriter.class
+pages\CategoriasPages.class
 core\DSL.class
 core\DriverFactory$1.class
 fileReader\ConfigFileReader.class
-functions\LoginFunctions.class
+stepsDefinition\CategoriasSteps.class
 managers\FileWriterManager.class
-stepsDefinition\LoginSteps.class
+functions\CategoriasFunctions.class
 core\Propriedades.class
 core\Utils.class
 stepsDefinition\Hooks.class

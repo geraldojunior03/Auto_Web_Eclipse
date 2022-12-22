@@ -130,6 +130,10 @@ public class DSL {
 		getDriver().get(url);
 	}
 
+	public String obterUrl() {
+		return getDriver().getCurrentUrl();
+	}
+	
 	/*
 	 * Esperar n segundos
 	 * 
@@ -266,7 +270,6 @@ public class DSL {
 	}
 
 	public String obterAtributoElementoPorXpath(String xpath_campo, String atributo) {
-
 		return getDriver().findElement(By.xpath(xpath_campo)).getAttribute(atributo);
 	}
 

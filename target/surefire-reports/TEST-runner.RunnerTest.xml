@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="runner.RunnerTest" time="0.672" errors="6" skipped="0">
+<testsuite tests="1" failures="0" name="runner.RunnerTest" time="0.01" errors="1" skipped="0">
   <properties>
-    <property name="jansi.mode" value="force"/>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.4.1+1"/>
-    <property name="sun.boot.library.path" value="C:\Users\geral\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Automações\Automacao_Asuna"/>
+    <property name="java.vm.version" value="17.0.4+8"/>
+    <property name="sun.boot.library.path" value="C:\Users\Estagiário\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Estagiário\git\Auto_Web_Eclipse"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,117 +16,111 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Automações\Automacao_Asuna"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="user.dir" value="C:\Users\Estagiário\git\Auto_Web_Eclipse"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.4+8"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\geral\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\ESTAGI~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\geral\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf13048246985937085328.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Estagiário\eclipse-workspaced\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf17148031601284224664.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\geral\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/geral/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin/server;C:/Users/geral/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-18.0.2.1;C:\Users\geral\AppData\Local\Android\Sdk;C:\Users\geral\AppData\Local\Android\Sdk\platform-tools;C:\Users\geral\AppData\Local\Android\Sdk\emulator;C:\Users\geral\AppData\Local\Microsoft\WindowsApps;;C:\Users\geral\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32;;."/>
+    <property name="java.library.path" value="C:\Users\Estagiário\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Estagiário/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin/server;C:/Users/Estagiário/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-18.0.2.1;C:\Sdk;C:\Sdk\platform-tools;C:\Sdk\emulator;C:\Program Files\Git\cmd;C:\Users\Estagiário\AppData\Local\Microsoft\WindowsApps;C:\Users\Estagiário\AppData\Roaming\npm;C:\Users\Estagiário\AppData\Local\Programs\Microsoft VS Code\bin;C:\WINDOWS\system32;;."/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\geral"/>
+    <property name="user.home" value="C:\Users\Estagiário"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="geral"/>
-    <property name="java.class.path" value="C:\Users\geral\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.601.20220820-1147\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="user.name" value="Estagiario"/>
+    <property name="java.class.path" value="C:\Users\Estagiário\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319\jars\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
-    <property name="java.home" value="C:\Users\geral\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Users\Estagiário\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220805-1047\jre"/>
     <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="17.0.4.1"/>
+    <property name="java.version" value="17.0.4"/>
     <property name="native.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="maven.home" value="D:\Automações\Automacao_Asuna\EMBEDDED"/>
-    <property name="style.color" value="always"/>
+    <property name="maven.home" value="C:\Users\Estagiário\git\Auto_Web_Eclipse\EMBEDDED"/>
     <property name="file.separator" value="\"/>
-    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.version.date" value="2022-07-19"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4+8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Aplicação" name="Login com sucesso" time="0.327">
-    <error message="Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null
-	at core.DriverFactory.getDriver(DriverFactory.java:33)
-	at core.DSL.abrirUrl(DSL.java:121)
-	at pages.LoginPages.entrarSite(LoginPages.java:10)
-	at functions.LoginFunctions.entrarSite(LoginFunctions.java:10)
-	at stepsDefinition.LoginSteps.que_eu_entre_no_menu_login(LoginSteps.java:15)
-	at ✽.que eu entre no menu login(file:///D:/Automações/Automacao_Asuna/src/test/resources/features/Automacao.feature:9)
-</error>
-    <system-out>nome da pasta da evidencia: 20221011
-Caminho completo: target/evidencias/20221011/Login com sucesso/20221011095503
-Nome diretorio: 20221011/Login com sucesso/20221011095503
-Caminho completo: target/evidencias/20221011/Login com sucesso/20221011095503
-Nome diretorio: 20221011/Login com sucesso/20221011095503
-</system-out>
-  </testcase>
-  <testcase classname="Aplicação" name="Login com sucesso" time="0.328">
-    <error message="Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null
-	at core.DriverFactory.getDriver(DriverFactory.java:33)
-	at core.BaseTest.takeScreenshot(BaseTest.java:52)
-	at stepsDefinition.Hooks.aposCenario(Hooks.java:73)
-</error>
-  </testcase>
-  <testcase classname="Aplicação" name="Login sem E-mail #1" time="0">
-    <error message="Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null
-	at core.DriverFactory.getDriver(DriverFactory.java:33)
-	at core.DSL.abrirUrl(DSL.java:121)
-	at pages.LoginPages.entrarSite(LoginPages.java:10)
-	at functions.LoginFunctions.entrarSite(LoginFunctions.java:10)
-	at stepsDefinition.LoginSteps.que_eu_entre_no_menu_login(LoginSteps.java:15)
-	at ✽.que eu entre no menu login(file:///D:/Automações/Automacao_Asuna/src/test/resources/features/Automacao.feature:18)
-</error>
-    <system-out>nome da pasta da evidencia: 20221011
-Caminho completo: target/evidencias/20221011/Login sem E-mail/20221011095503
-Nome diretorio: 20221011/Login sem E-mail/20221011095503
-Caminho completo: target/evidencias/20221011/Login sem E-mail/20221011095503
-Nome diretorio: 20221011/Login sem E-mail/20221011095503
-</system-out>
-  </testcase>
-  <testcase classname="Aplicação" name="Login sem E-mail #1" time="0.001">
-    <error message="Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null
-	at core.DriverFactory.getDriver(DriverFactory.java:33)
-	at core.BaseTest.takeScreenshot(BaseTest.java:52)
-	at stepsDefinition.Hooks.aposCenario(Hooks.java:73)
-</error>
-  </testcase>
-  <testcase classname="Aplicação" name="Login sem E-mail #2" time="0.008">
-    <error message="Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null
-	at core.DriverFactory.getDriver(DriverFactory.java:33)
-	at core.DSL.abrirUrl(DSL.java:121)
-	at pages.LoginPages.entrarSite(LoginPages.java:10)
-	at functions.LoginFunctions.entrarSite(LoginFunctions.java:10)
-	at stepsDefinition.LoginSteps.que_eu_entre_no_menu_login(LoginSteps.java:15)
-	at ✽.que eu entre no menu login(file:///D:/Automações/Automacao_Asuna/src/test/resources/features/Automacao.feature:24)
-</error>
-    <system-out>nome da pasta da evidencia: 20221011
-Caminho completo: target/evidencias/20221011/Login sem E-mail/20221011095503
-Nome diretorio: 20221011/Login sem E-mail/20221011095503
-Caminho completo: target/evidencias/20221011/Login sem E-mail/20221011095503
-Nome diretorio: 20221011/Login sem E-mail/20221011095503
-</system-out>
-  </testcase>
-  <testcase classname="Aplicação" name="Login sem E-mail #2" time="0.008">
-    <error message="Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;String.hashCode()&quot; because &quot;&lt;local1&gt;&quot; is null
-	at core.DriverFactory.getDriver(DriverFactory.java:33)
-	at core.BaseTest.takeScreenshot(BaseTest.java:52)
-	at stepsDefinition.Hooks.aposCenario(Hooks.java:73)
+  <testcase classname="runner.RunnerTest" name="initializationError" time="0.01">
+    <error message="Failed to parse resource at: file:///C:/Users/Estagiário/git/Auto_Web_Eclipse/src/test/resources/features/BDD.feature
+(7:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Dado o acesso ao site natura.com.br&apos;
+(8:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Quando clicar na categoria &quot;Natal&quot;&apos;
+(9:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Então o sistema deve redirecionar para a página de promoções do natal&apos;
+(12:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Dado o acesso ao site natura.com.br&apos;
+(13:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Quando clicar na categoria &quot;Presentes&quot;&apos;
+(14:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Então o sistema deve redirecionar para a página com kits de presentes&apos;
+(17:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Dado o acesso ao site natura.com.br&apos;
+(18:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Quando clicar na categoria &quot;Perfumaria&quot;&apos;
+(19:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Então o sistema deve redirecionar para a lista de produtos de perfumaria&apos;
+(22:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Dado o acesso ao site natura.com.br&apos;
+(23:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Quando clicar na categoria &quot;Corpo e Banho&quot;&apos;" type="io.cucumber.core.gherkin.FeatureParserException">io.cucumber.core.gherkin.FeatureParserException: Failed to parse resource at: file:///C:/Users/Estagiário/git/Auto_Web_Eclipse/src/test/resources/features/BDD.feature
+(7:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Dado o acesso ao site natura.com.br&apos;
+(8:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Quando clicar na categoria &quot;Natal&quot;&apos;
+(9:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Então o sistema deve redirecionar para a página de promoções do natal&apos;
+(12:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Dado o acesso ao site natura.com.br&apos;
+(13:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Quando clicar na categoria &quot;Presentes&quot;&apos;
+(14:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Então o sistema deve redirecionar para a página com kits de presentes&apos;
+(17:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Dado o acesso ao site natura.com.br&apos;
+(18:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Quando clicar na categoria &quot;Perfumaria&quot;&apos;
+(19:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Então o sistema deve redirecionar para a lista de produtos de perfumaria&apos;
+(22:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Dado o acesso ao site natura.com.br&apos;
+(23:1): expected: #TagLine, #RuleLine, #Comment, #Empty, got &apos;Quando clicar na categoria &quot;Corpo e Banho&quot;&apos;
+	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:43)
+	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:45)
+	at java.base/java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)
+	at io.cucumber.core.resource.ResourceScanner.lambda$processResource$1(ResourceScanner.java:79)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2811)
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
+	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
+	at io.cucumber.junit.Cucumber.&lt;init&gt;(Cucumber.java:156)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:250)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </error>
   </testcase>
 </testsuite>
