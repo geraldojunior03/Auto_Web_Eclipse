@@ -42,8 +42,54 @@ public class BuscaSteps {
 	@Dado("o acesso ao site natura.com.br e que já exista um termo pesquisado")
 	public void o_acesso_ao_site_natura_com_br_e_que_já_exista_um_termo_pesquisado() throws Exception {
 		bf.entrarNatura();
+		bf.aceitarCookies();
 		bf.escreverNaBusca("Aero");
-		bf.voltarHomePage();
+	}
+
+	/*
+	 * ##################
+	 * ##################
+	 * ##################
+	 */
+
+	@Quando("clicar na barra de busca e clicar em Limpar")
+	public void clicar_na_barra_de_busca_e_clicar_em_limpar() {
+		bf.limparHistorico();
+	}
+	
+	@Então("o sistema apagar toda a lista do histórico")
+	public void o_sistema_apagar_toda_a_lista_do_histórico() {
+		bf.validarHistoricoLimpo();
+	}
+
+	@Quando("buscar o termo Perfume e clicar em Ver mais resultados")
+	public void buscar_o_termo_perfume_e_clicar_em_ver_mais_resultados() {
+		bf.buscarMaisResultados("Perfume");
+	}
+	
+	@Então("o sistema deve exibir uma página apenas com perfumes")
+	public void o_sistema_deve_exibir_uma_página_apenas_com_perfumes() {
+		bf.validarBuscaPerfume();
+	}
+
+	@Quando("buscar o termo Essencial e clicar no produto Essencial Elixir na seção Produtos do menu de busca")
+	public void buscar_o_termo_essencial_e_clicar_no_produto_essencial_elixir_na_seção_produtos_do_menu_de_busca() {
+		bf.buscarSecaoProdutos("Essencial");
+	}
+	
+	@Então("o sistema redirecionar para a página do produto")
+	public void o_sistema_redirecionar_para_a_página_do_produto() {
+		bf.validarPaginaEssencial();
+	}
+
+	@Quando("buscar o termo Kaiak e clicar no produto Kaiak Aero nas sugestões de busca do Menu de busca")
+	public void buscar_o_termo_kaiak_e_clicar_no_produto_kaiak_aero_nas_sugestões_de_busca_do_menu_de_busca() {
+		bf.buscarSugestao("Kaiak");
+	}
+	
+	@Então("o sistema redirecionar para a página deste produto")
+	public void o_sistema_redirecionar_para_a_página_deste_produto() {
+		bf.validarPaginaKaiak();
 	}
 
 }

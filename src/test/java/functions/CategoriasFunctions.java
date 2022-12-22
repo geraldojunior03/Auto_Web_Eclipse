@@ -10,6 +10,7 @@ public class CategoriasFunctions {
 
 	public void entrarNatura() {
 		cp.acessarSiteNatura();
+		cp.aceitarCookies();
 	}
 
 	public void selecionarCategoria(String string) throws Exception {
