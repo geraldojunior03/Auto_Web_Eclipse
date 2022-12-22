@@ -17,7 +17,7 @@ import io.cucumber.junit.CucumberOptions;
 				  },
 		 monochrome = true,			
 		 glue = { "stepsDefinition" },
-		 tags= "@"
+		 tags= "@cadastrarend"
 		)
 
 public class RunnerTest {	

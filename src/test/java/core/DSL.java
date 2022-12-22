@@ -74,7 +74,7 @@ public class DSL {
 
 		return getDriver().findElement(By.xpath(xpath_campo)).getText();
 	}
-
+	
 	public void clicarPorId(String id_campo) {
 		getDriver().findElement(By.id(id_campo)).click();
 	}
