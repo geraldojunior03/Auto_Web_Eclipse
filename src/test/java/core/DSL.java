@@ -23,7 +23,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DSL {
-
+	
 	public void escrevePorId(String id_campo, String texto) {
 		getDriver().findElement(By.id(id_campo)).sendKeys(texto);
 	}
