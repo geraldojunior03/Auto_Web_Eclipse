@@ -63,4 +63,20 @@ public class FiltrosSteps {
 		ff.validarTitulo("Z-A");
 	}
 
+	@Então("o sistema deve organizar os produtos em ordem crescente de preço")
+	public void o_sistema_deve_organizar_os_produtos_em_ordem_crescente_de_preço() {
+		ff.validarPreco("Menor");
+	}
+	
+	@Então("o sistema deve organizar os produtos em ordem decrescente de preço")
+	public void o_sistema_deve_organizar_os_produtos_em_ordem_decrescente_de_preço() {
+		ff.validarPreco("Maior");
+	}
+
+
+
+
+
+
+
 }

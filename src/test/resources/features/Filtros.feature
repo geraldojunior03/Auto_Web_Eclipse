@@ -30,13 +30,13 @@ Então o sistema deve organizar os produtos em ordem alfabética inversa
 @ordenarMenorPreco @organizacaoProdutos
 Cenário: Ordenar lista por menor preço
 Dado o acesso ao site natura.com.br, que esteja dentro da categoria Promoções
-Quando clicar na lista de Ordenar por: e selecionar a opção "Menor preço"
+Quando clicar na lista de Ordenar por: e selecionar a opção "Menor Preço"
 Então o sistema deve organizar os produtos em ordem crescente de preço
 
 @ordenarMaiorPreco @organizacaoProdutos
 Cenário: Ordenar lista por maior preço
 Dado o acesso ao site natura.com.br, que esteja dentro da categoria Promoções
-Quando clicar na lista de Ordenar por: e selecionar a opção "Maior preço"
+Quando clicar na lista de Ordenar por: e selecionar a opção "Maior Preço"
 Então o sistema deve organizar os produtos em ordem decrescente de preço
 
 @ordernarMaiorDesconto @organizacaoProdutos

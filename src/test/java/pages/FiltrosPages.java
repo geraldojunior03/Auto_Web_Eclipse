@@ -9,7 +9,6 @@ public class FiltrosPages {
 	public void entrarPagina(String string) {
 		dsl.abrirUrl("https://www.natura.com.br/"+ string);
 		dsl.clicarPorId("onetrust-accept-btn-handler");
-		
 	}
 
 	public void abrirMostrar() {
@@ -34,7 +33,9 @@ public class FiltrosPages {
 		return dsl.obterTextoPorXpath("(//h5)["+ pos +"]");
 	}
 
-
-	
+	public String obterPreco(int i) {
+		String pos = Integer.toString(i);
+		return dsl.obterTextoPorXpath("(//div[@data-testid='card'])["+ pos +"]");
+	}
 	
 }
