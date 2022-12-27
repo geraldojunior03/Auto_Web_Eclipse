@@ -12,6 +12,7 @@ public class FiltrosPages {
 	}
 
 	public void abrirMostrar() {
+		dsl.esperarElementoPorXpath("(//div[@aria-haspopup='listbox'])[1]", 3);
 		dsl.clicarPorXpath("(//div[@aria-haspopup='listbox'])[1]");
 	}
 
@@ -36,6 +37,34 @@ public class FiltrosPages {
 	public String obterPreco(int i) {
 		String pos = Integer.toString(i);
 		return dsl.obterTextoPorXpath("(//div[@data-testid='card'])["+ pos +"]");
+	}
+
+	public String obterDesconto(int i) {
+		String pos = Integer.toString(i);
+		return dsl.obterTextoPorXpath("(//span[contains(text(),'%')])["+ pos +"]");
+	}
+
+	public void clicarMaisProdutos() {
+		dsl.clicarPorXpath("//span[contains(text(),'Carregar mais resultados')]");
+	}
+
+	public boolean checarBotaoCarregar() {
+		try {
+			dsl.verificarSeElementoEstaPresenteXpath("//span[contains(text(),'Carregar mais resultados')]");
+			return true;
+		}catch(Exception e) {
+			return false;
+		}
+	}
+
+	public void subirTela() {
+		dsl.pressionaTeclaHOME();
+		dsl.scrollToElementByXpath("//div[@options='12,24,36,48']");
+	}
+
+	public void descerTela() {
+		dsl.pressionaTeclaPAGE_DOWN();
+		
 	}
 	
 }

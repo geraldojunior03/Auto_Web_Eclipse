@@ -72,11 +72,43 @@ public class FiltrosSteps {
 	public void o_sistema_deve_organizar_os_produtos_em_ordem_decrescente_de_preço() {
 		ff.validarPreco("Maior");
 	}
+	
+	@Então("o sistema deve organizar os produtos em ordem decrescente de desconto")
+	public void o_sistema_deve_organizar_os_produtos_em_ordem_decrescente_de_desconto() {
+		ff.validarDesconto();
+	}
 
+	@Dado("o acesso ao site natura.com.br, que esteja dentro da categoria Cabelos > Finalizador")
+	public void o_acesso_ao_site_natura_com_br_que_esteja_dentro_da_categoria_cabelos_finalizador() {
+		ff.acessarPagina("c/cabelos/finalizador");
+	}
+	
+	@Quando("clicar Carregar mais resultados até não haver mais produtos")
+	public void clicar_carregar_mais_resultados_até_não_haver_mais_produtos() {
+		ff.carregarTodosProdutos();
+	}
+	
+	@Então("o sistema deve esconder o botão Carregar mais resultados da tela")
+	public void o_sistema_deve_esconder_o_botão_carregar_mais_resultados_da_tela() {
+		ff.validarCarregarProdutos();
+	}
 
-
-
-
-
-
+	@Dado("o acesso ao site natura.com.br, que esteja dentro da categoria Cabelos > Finalizadores e que o Mostrar por página: esteja como {string}")
+	public void o_acesso_ao_site_natura_com_br_que_esteja_dentro_da_categoria_cabelos_finalizadores_e_que_o_mostrar_por_página_esteja_como(String string) {
+		ff.acessarPagina("c/cabelos/finalizador?pageSize=" + string);
+	}
+	
+	@Quando("clicar Carregar mais resultados até não haver mais produtos e, depois, alterar o Mostrar por página: para {string}")
+	public void clicar_carregar_mais_resultados_até_não_haver_mais_produtos_e_depois_alterar_o_mostrar_por_página_para(String string) {
+		ff.carregarTodosProdutos();
+		ff.subirTodaATela();
+		ff.clicarMostrar();
+		ff.selecionarMostrar(string);
+	}
+	
+	@Então("o sistema deve voltar a mostrar apenas doze produtos na lista")
+	public void o_sistema_deve_voltar_a_mostrar_apenas_doze_produtos_na_lista() {
+		ff.validarQuantidadeProdutos(12);
+	}
+	
 }

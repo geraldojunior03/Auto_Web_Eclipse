@@ -42,7 +42,7 @@ Então o sistema deve organizar os produtos em ordem decrescente de preço
 @ordernarMaiorDesconto @organizacaoProdutos
 Cenário: Ordenar lista por maior desconto
 Dado o acesso ao site natura.com.br, que esteja dentro da categoria Promoções
-Quando clicar na lista de Ordenar por: e selecionar a opção "Maior desconto"
+Quando clicar na lista de Ordenar por: e selecionar a opção "Maior Desconto"
 Então o sistema deve organizar os produtos em ordem decrescente de desconto
 
 @carregarTodosResultados @organizacaoProdutos

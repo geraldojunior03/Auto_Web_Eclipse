@@ -112,5 +112,47 @@ public class FiltrosFunctions {
 			System.out.print("\n" + listaReversa);
 			Assert.assertTrue(lista.equals(listaReversa));
 		}
+	}
+
+	public void validarDesconto() {
+		List<Integer> lista = new ArrayList<Integer>();
+		
+		for(int i = 1; i <= 12; i++) {
+			String desc = fp.obterDesconto(i);
+			String subdesc = desc.substring(1, 3);
+			int descReal = Integer.parseInt(subdesc);
+			lista.add(descReal);
+		}
+		
+		List<Integer> listaReversa = new ArrayList<Integer>();
+		for (int i = 0; i < lista.size(); i++) {
+			listaReversa.add(lista.get(i));
+		}
+//		List<Integer> listaReversa = lista.stream().sorted().collect(Collectors.toList());
+		System.out.print("\n" + lista);	
+		Collections.sort(listaReversa, Collections.reverseOrder());
+		System.out.print("\n" + listaReversa);
+		Assert.assertTrue(lista.equals(listaReversa));
+	}
+
+	public void carregarTodosProdutos() {
+		while (true) {
+			try {
+				fp.clicarMaisProdutos();
+				fp.descerTela();
+			}catch(Exception e) {
+				break;
+			}
+		}
+	}
+
+	public void validarCarregarProdutos() {
+		boolean check =  fp.checarBotaoCarregar();
+		Assert.assertFalse(check);;
+	}
+
+	public void subirTodaATela() {
+		fp.subirTela();
+		
 	}	
 }
